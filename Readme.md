@@ -140,7 +140,7 @@ Tell me the news
 
 # Author
 
-Wahab Saafdar
+Wahab Safdar
 
 ---
 
