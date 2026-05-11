@@ -75,36 +75,36 @@ def ProcessCommand(c):
         web.open("https://stackoverflow.com")
 
     elif "open calculator" in c:
-        subprocess.run(["calc.exe"])
+        subprocess.run(["C:\\Windows\\System32\\calc.exe"])
 
     elif "open paint" in c:
-        subprocess.run(["mspaint.exe"])
+        subprocess.run(["C:\\Windows\\System32\\mspaint.exe"])
 
     elif "open cmd" in c or "open command prompt" in c:
-        subprocess.run(["cmd.exe"])
+        subprocess.run(["C:\\Windows\\System32\\cmd.exe"])
 
     elif "open powershell" in c:
-        subprocess.run(["powershell.exe"])
+        subprocess.run(["C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\powershell.exe"])
 
     elif "open edge" in c or "open browser" in c:
         subprocess.run(["start", "msedge"], shell=True)
 
     elif "open word" in c:
-        subprocess.run(["winword.exe"])
+        subprocess.run("C:\\Program Files\\Microsoft Office\\root\\Office16\\WINWORD.EXE")
 
     elif "open excel" in c:
-        subprocess.run(["excel.exe"])
+        subprocess.run(["C:\\Program Files\\Microsoft Office\\root\\Office16\\EXCEL.EXE"])
 
     elif "open powerpoint" in c:
-        subprocess.run([""])
+        subprocess.run(["C:\\Program Files\\Microsoft Office\\root\\Office16\\POWERPNT.EXE"])
 
     elif "open notepad" in c:
-        subprocess.run(["%windir%\system32\notepad.exe"])
+        subprocess.run(["C:\\Windows\\System32\\notepad.exe"])
 
     elif "open python website" in c or "open pyweb" in c:
         web.open("https://www.python.org")   
     elif "open python" in c:
-               subprocess.run(["python.exe"])
+               subprocess.run(["python"])
         
    
     elif c.startswith("play"):
