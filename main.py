@@ -10,10 +10,10 @@ from musicLibrary import musicLibrary
 
 engine = pyttsx3.init()
 r = sr.Recognizer()
-newsapi = "new api here"
-weatherapi = "weather api here"
+newsapi = "YOUR_NEWS_API"
+weatherapi = "YOUR_WEATHER_API"
 base_url = "http://api.openweathermap.org/data/2.5/weather?"
-openai_api = "openai api here"
+openai_api = "YOUR_OPENAI_API"
 def speak(text):
                print(text)
                engine.say(text)
